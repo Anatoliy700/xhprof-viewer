@@ -22,7 +22,8 @@ Please check out our [Contribution Guidelines](CONTRIBUTING.md) for helpful hint
 Copyright (c) 2016 SugarCRM Inc. Licensed by SugarCRM under the Apache 2.0 license.
 
 ## Example
-```xhprof_enable();
+```php
+xhprof_enable();
 .....
 file_put_contents("/var/temp/profiler/xhprof/" . uniqid() . '.' . time() . "-1-service_name.xhprof", serialize(xhprof_disable()))
 ```
